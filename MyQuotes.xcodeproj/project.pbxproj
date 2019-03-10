@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B19C08821BBB14900D8F551 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19C08721BBB14900D8F551 /* HomeViewController.swift */; };
+		5B19C08A21BDB4D700D8F551 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19C08921BDB4D700D8F551 /* FavoriteViewController.swift */; };
+		5B19C08C21BF107100D8F551 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19C08B21BF107100D8F551 /* SettingsViewController.swift */; };
 		5BD4B34921B7F10C00A2F765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4B34821B7F10C00A2F765 /* AppDelegate.swift */; };
-		5BD4B34B21B7F10C00A2F765 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4B34A21B7F10C00A2F765 /* FirstViewController.swift */; };
-		5BD4B34D21B7F10C00A2F765 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4B34C21B7F10C00A2F765 /* SecondViewController.swift */; };
-		5BD4B35021B7F10C00A2F765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4B34E21B7F10C00A2F765 /* Main.storyboard */; };
+		5BD4B35021B7F10C00A2F765 /* MyQuotes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4B34E21B7F10C00A2F765 /* MyQuotes.storyboard */; };
 		5BD4B35221B7F11000A2F765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4B35121B7F11000A2F765 /* Assets.xcassets */; };
 		5BD4B35521B7F11000A2F765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4B35321B7F11000A2F765 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B19C08721BBB14900D8F551 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B19C08921BDB4D700D8F551 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		5B19C08B21BF107100D8F551 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		5BD4B34521B7F10C00A2F765 /* MyQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD4B34821B7F10C00A2F765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BD4B34A21B7F10C00A2F765 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5BD4B34C21B7F10C00A2F765 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		5BD4B34F21B7F10C00A2F765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BD4B34F21B7F10C00A2F765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyQuotes.storyboard; sourceTree = "<group>"; };
 		5BD4B35121B7F11000A2F765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD4B35421B7F11000A2F765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD4B35621B7F11000A2F765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				5BD4B34821B7F10C00A2F765 /* AppDelegate.swift */,
-				5BD4B34A21B7F10C00A2F765 /* FirstViewController.swift */,
-				5BD4B34C21B7F10C00A2F765 /* SecondViewController.swift */,
-				5BD4B34E21B7F10C00A2F765 /* Main.storyboard */,
+				5B19C08721BBB14900D8F551 /* HomeViewController.swift */,
+				5B19C08921BDB4D700D8F551 /* FavoriteViewController.swift */,
+				5B19C08B21BF107100D8F551 /* SettingsViewController.swift */,
+				5BD4B34E21B7F10C00A2F765 /* MyQuotes.storyboard */,
 				5BD4B35121B7F11000A2F765 /* Assets.xcassets */,
 				5BD4B35321B7F11000A2F765 /* LaunchScreen.storyboard */,
 				5BD4B35621B7F11000A2F765 /* Info.plist */,
@@ -127,7 +130,7 @@
 			files = (
 				5BD4B35521B7F11000A2F765 /* LaunchScreen.storyboard in Resources */,
 				5BD4B35221B7F11000A2F765 /* Assets.xcassets in Resources */,
-				5BD4B35021B7F10C00A2F765 /* Main.storyboard in Resources */,
+				5BD4B35021B7F10C00A2F765 /* MyQuotes.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +141,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD4B34D21B7F10C00A2F765 /* SecondViewController.swift in Sources */,
 				5BD4B34921B7F10C00A2F765 /* AppDelegate.swift in Sources */,
-				5BD4B34B21B7F10C00A2F765 /* FirstViewController.swift in Sources */,
+				5B19C08A21BDB4D700D8F551 /* FavoriteViewController.swift in Sources */,
+				5B19C08821BBB14900D8F551 /* HomeViewController.swift in Sources */,
+				5B19C08C21BF107100D8F551 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BD4B34E21B7F10C00A2F765 /* Main.storyboard */ = {
+		5BD4B34E21B7F10C00A2F765 /* MyQuotes.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5BD4B34F21B7F10C00A2F765 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MyQuotes.storyboard;
 			sourceTree = "<group>";
 		};
 		5BD4B35321B7F11000A2F765 /* LaunchScreen.storyboard */ = {
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SKC.MyQuotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SKC.MyQuotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
